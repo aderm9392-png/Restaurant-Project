@@ -1,0 +1,28 @@
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+Disallow: /private/
+
+# Specific crawl delay
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://wujdi.github.io/sitemap.xml
+
+# Google-specific directives
+User-agent: Googlebot
+Allow: /
+
+# Bing-specific directives
+User-agent: Bingbot
+Allow: /
+
+# Block bad bots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
